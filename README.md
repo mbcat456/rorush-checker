@@ -62,7 +62,4 @@ When an account hits, it saves to `hits.txt` like this:
 Balance, vault, wagered, and rewards are all in coins (the API returns micro-units, the checker divides by a million).
 
 ### Notes
-- rorush.com sits behind cloudflare. rotating residential proxies make a real difference here — static datacenter IPs get flagged fast.
-- the site doesn't require a captcha for login, so there's no solver overhead.
-- 2FA accounts get saved but can't be checked further through the API.
 - unlimited retries can hang an account forever if the API keeps returning something the code doesn't recognize as a dead end.
