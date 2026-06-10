@@ -1,0 +1,6 @@
+# put your proxies here, one per line
+# supported formats:
+#   ip:port
+#   ip:port:user:pass
+#   user:pass@ip:port
+#   http://user:pass@ip:port
