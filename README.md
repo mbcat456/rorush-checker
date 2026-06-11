@@ -1,6 +1,6 @@
 # rorush checker
 
-Multithreaded python account checker for rorush.com. Logs in through the site's REST API, then pulls the full account breakdown — coin balance, vault, season wagered, level, daily/weekly/monthly rakeback, rain earnings, and robux balance.
+Multithreaded python account checker for rorush.com. Logs in through the site's REST API, then pulls the full account breakdown: coin balance, vault, season wagered, level, daily/weekly/monthly rakeback, rain earnings, and robux balance.
 
 ### Features
 - multithreaded login checking with live progress bar and hit printing
